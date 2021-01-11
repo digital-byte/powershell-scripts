@@ -1,0 +1,1 @@
+1..9|%{$S = New-Object -Com "Wscript.Shell"}{Sleep -S (30+$S.Sendkeys("+"))}
